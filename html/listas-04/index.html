@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon"/>
+
+    <!--
+        link tag -> tag para adicionar recursos para o site como imagens, ícone da página, fonte, css, etc
+        rel attribute -> nome que relaciona o link com a página
+        href attribute -> URL da origem do arquivo
+        type attribute -> tipo de imagem e para que será utilizado
+    -->
+
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+
+    <h2>Lista ordenada</h2>
+    <p><strong>tag: </strong>ol</p>
+    <ol type="a" start="27"> 
+        <!-- 
+            Lista ordenada. 
+            type -> altera o marcador que indica a sequência: '1', 'a', 'A', 'i', 'I' 
+            start -> número que indica o início do marcador
+        -->
+        <li>Battlefield</li> <!-- li -> list item (item da lista)-->
+        <li>Valorant</li> <!-- li -> list item (item da lista)-->
+        <li>Rocket League</li> <!-- li -> list item (item da lista)-->
+        <li>Fortnite</li> <!-- li -> list item (item da lista)-->
+        <li>Call Of Duty</li> <!-- li -> list item (item da lista)-->
+    </ol>
+
+    <h2>Lista não ordenada</h2>
+    <p><strong>tag: </strong>ul</p>
+    <ul type="circle"> 
+        <!-- 
+            Lista não ordenada 
+            type altera o marcador que indica a sequência: 'square', 'circle', 'disk, none' 
+        -->
+        <li>Interestelar</li>
+        <li>Oppenheimer</li>
+        <li>Carros 2 (KA- CHOW)</li>
+        <li>Clube da Luta</li>
+    </ul>
+
+    <h2>Listas dentro de listas (aninhamento)</h2>
+
+    <ol> <!-- Listas aninhadas -->
+        <li>Qual a sua matéria favorita?</li>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de definição</h2>
+    <p><strong>tag: </strong>dl > dt > dd</p>
+    <dl>
+        <dt>HTML</dt>
+            <dd>Linguagem de marcação utilizada nas páginas web</dd>
+    </dl>
+
+    <a href="pagina2.html">Página 2</a>
+
+    <br>
+
+    <a href="https://ios.org.br" target="_blank">SITE DO IOS</a>
+</body>
+</html>

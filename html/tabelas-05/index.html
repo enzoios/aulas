@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+</head>
+
+<body>
+  <h1>Tabelas</h1>
+
+  <hr>
+
+  <!-- 
+    table = tabela
+    TABLE ROW - tr = linha da tabela
+    TABLE DATA - td = dado da tabela
+  -->
+
+  <table border="5" width="50%">
+    <tr>
+      <td>Nome</td>
+      <td>Sobrenome</td>
+      <td>Gosto Musical</td>
+    </tr>
+    <tr>
+      <td>Enzo</td>
+      <td>Mateus</td>
+      <td>Eletrônica</td>
+    </tr>
+    <tr>
+      <td>João</td>
+      <td>Vitor</td>
+      <td>Rock</td>
+    </tr>
+    <tr>
+      <td>Vitor</td>
+      <td>da Silva</td>
+      <td>Rap</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- 
+    table
+      caption -> título da tabela
+      thead -> tag semântica para o cabeçalho
+        tr -> tag para adicionar uma linha
+          th -> tag para adicionar uma célula do cabeçalho
+      
+      tbody -> corpo da tabela
+        tr -> tag para adicionar uma linha
+          td -> tag para adicionar uma célula ou dado
+      
+      tfoot -> rodapé da tabela
+        tr -> tag para adicionar uma linha
+          td -> tag para adicionar uma célula ou dado      
+          
+      MESCLAR CÉLULAS
+
+      COLUNAS: colspan
+      LINHA: rowspan
+
+  -->
+
+  <table border="2" width="50%" >
+    <caption>Cofrinho de 2026</caption> <!-- Título da tabela -->
+    <thead>
+      <tr>
+        <th>Mês</th>
+        <th>Poupança</th>
+        <th>Mesclando Células</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Janeiro</td>
+        <td>R$198,00</td>
+        <td>R$298,00</td>
+      </tr>
+      <tr>
+        <td>Fevereiro</td>
+        <td>R$471,00</td>
+        <td>R$4571,00</td>
+      </tr>
+      <tr>
+        <td>Março</td>
+        <!-- <td>R$100.123,00</td> -->
+        <td colspan="2 ">Mesclando</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
