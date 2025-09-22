@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap'); /* fonte externa vindo do google fonts */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif /* altera a fonte da página */
+}
+
+main {
+    margin: 15px;
+}
+
+h1, h2 { /* lista de seletores - permite selecionar mais de um seletor para aplicar as propriedades de CSS */ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box1 {
+    height: 300px;
+    width: 400px;
+    background-color: tomato;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.box2 {
+    height: 200px;
+    width: 400px;
+    background-color: cyan;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+}
+
+.box3 {
+    height: 200px;
+    width: 400px;
+    background-color: goldenrod;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: "Lobster Two", sans-serif; 
+}
+
+/*  medidas de tamanho de fontes 
+    px, cm, mm, em, rem, vw, vh, %
+*/
+
+
+.p1 {
+    font-size: 20px;
+    text-decoration: underline;
+    text-indent: 30px;
+}
+
+.p2 {
+    font-size: 1em;
+    text-decoration: overline;
+    text-align: center;
+}
